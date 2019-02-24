@@ -1,7 +1,6 @@
 <?php
     $numbers = [3, 8, 7, 2, 4, 5, 1, 9, 6,11,10]; 
-    $c = count($numbers);
-    for ($i=0;$i<$c;$i++)
+    for ($i=0;$i<count($numbers);$i++)
         {
             echo  $numbers[$i]."|";
         }
@@ -21,7 +20,7 @@
         }
     }
     echo "--------";
-    for ($i=0;$i<$c;$i++)
+    for ($i=0;$i<count($numbers);$i++)
         {
             echo  $numbers[$i]."|";
         }
