@@ -4,7 +4,6 @@
     $c = count($numbers);
     function printnumbers($text)
     {
-
         global $c;
         global $numbers;
         echo $text . "<br>";
@@ -17,7 +16,6 @@
     printnumbers(Before);
     while($o<$c)
     {
-        $o++;
         $i = ($c-1);
         while($i>$o)
         {
@@ -29,6 +27,7 @@
             }
             $i--;
         }
+        $o++;
     
     }
     printnumbers(After);
