@@ -2,19 +2,9 @@
     $numbers = [3, 8, 7, 2, 4, 5, 1, 9, 6,11,10]; 
     $o = 0;
     $c = count($numbers);
-    function printnumbers($text)
-    {
-        global $c;
-        global $numbers;
-        echo $text . "<br>";
-        for ($i=0;$i<$c;$i++)
-        {
-            echo  $numbers[$i]."|";
-        }
-            echo  "<br>";
-    }
-    printnumbers(Before);
-    while($o<$c)
+    echo "Before <br>";
+    echo implode(', ',$numbers);
+   while($o<$c)
     {
         $i = ($c-1);
         while($i>$o)
@@ -28,7 +18,7 @@
             $i--;
         }
         $o++;
-    
     }
-    printnumbers(After);
+    echo "After <br>" ;
+    echo implode(', ',$numbers);
 ?>

@@ -1,9 +1,7 @@
 <?php
     $numbers = [3, 8, 7, 2, 4, 5, 1, 9, 6,11,10]; 
-    for ($i=0;$i<count($numbers);$i++)
-        {
-            echo  $numbers[$i]."|";
-        }
+    echo "Before <br>" ;
+    echo implode(', ',$numbers);
     $tmp = 0;
     $o = 0;
     for($o;$o<count($numbers);$o++)   
@@ -19,10 +17,7 @@
        
         }
     }
-    echo "--------";
-    for ($i=0;$i<count($numbers);$i++)
-        {
-            echo  $numbers[$i]."|";
-        }
+    echo "After <br>" ;
+    echo implode(', ',$numbers);
 
 ?>
