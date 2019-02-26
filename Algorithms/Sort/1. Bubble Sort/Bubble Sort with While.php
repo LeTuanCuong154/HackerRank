@@ -4,7 +4,7 @@
     $c = count($numbers);
     echo "Before <br>";
     echo implode(', ',$numbers);
-   while($o<$c)
+    while($o<$c)
     {
         $i = ($c-1);
         while($i>$o)
