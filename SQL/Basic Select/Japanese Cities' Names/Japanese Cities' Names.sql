@@ -1,0 +1,1 @@
+Select name From city where COUNTRYCODE  = 'JPN'
