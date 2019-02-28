@@ -1,0 +1,3 @@
+#Hello SQL 
+- BASIC SELECT 
+- BASIC JOIN
