@@ -1,1 +1,1 @@
-    select count(*) from ciy where District  = 'California'
+    select sum(population) from ciy where District  = 'California'
