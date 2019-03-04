@@ -1,0 +1,1 @@
+    select count(*) from ciy where POPULATION > 100000

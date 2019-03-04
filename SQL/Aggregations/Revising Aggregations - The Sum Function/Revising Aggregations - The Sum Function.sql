@@ -1,0 +1,1 @@
+    select count(*) from ciy where District  = 'California'
